@@ -1,11 +1,9 @@
 
 Description: use Fully Convolutional Network to segment road (drivable regions) and lane marks for self driving.
 
-<a href="https://youtu.be/xwhcjtnm1JQ" rel="some text"><p align="center">![Foo](https://j.gifs.com/O7mK6E.gif)</p></a>
 
 The network was trained on the huge segmentation datasets for future maps provided by Mapillary. The testing videos are a random dashcam video on Youtube. The result for road segmentation is highly accurate but the result for lane mark segmentation is a lot less accurate. However, it is still good enough to estimate the rough positions of the lanes.
 
-Thanks to https://github.com/JihongJu/keras-fcn and https://www.mapillary.com/.
 
 # To do list
 
